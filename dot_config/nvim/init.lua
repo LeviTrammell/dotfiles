@@ -17,6 +17,9 @@ require("mason-lspconfig").setup_handlers({
   function(server_name) -- default handler (optional)
     require("lspconfig")[server_name].setup({})
   end,
+  ["typescriptreact"] = function()
+    require("lspconfig")["typescript-language-server"].setup({})
+  end,
 })
 
 require("alpha").setup(require("alpha.themes.dashboard").config)
