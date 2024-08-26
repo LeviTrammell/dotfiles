@@ -25,6 +25,8 @@ keymap("n", "fb", ":Telescope buffers<CR>", default_opts) -- open
 keymap("n", "fh", ":Telescope help_tags<CR>", default_opts) -- open
 keymap("n", "<C-p>", ":Telescope find_files<CR>", default_opts) -- open
 
+--- Something else
+
 ---
 -- barbar settings
 ---

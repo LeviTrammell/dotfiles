@@ -10,6 +10,7 @@ return {
           hijack_netrw = true,
           auto_depth = true,
         },
+        ["ui-select"] = {},
       },
     })
 

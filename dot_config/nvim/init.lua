@@ -24,6 +24,8 @@ require("mason-lspconfig").setup_handlers({
 
 require("alpha").setup(require("alpha.themes.dashboard").config)
 
+require("telescope").load_extension("ui-select")
+
 function CurrentBufferFilePath()
   local current_buf = vim.api.nvim_get_current_buf()
   local file = vim.api.nvim_buf_get_name(current_buf)
