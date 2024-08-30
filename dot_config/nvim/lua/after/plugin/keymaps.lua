@@ -76,3 +76,6 @@ vim.keymap.set("n", "gd", vim.lsp.buf.definition, default_opts)
 vim.keymap.set("n", "gD", vim.lsp.buf.declaration, default_opts)
 vim.keymap.set("n", "gr", vim.lsp.buf.hover, default_opts)
 vim.keymap.set("n", "ga", vim.lsp.buf.code_action, default_opts)
+
+--- Oil
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
