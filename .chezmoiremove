@@ -1,0 +1,4 @@
+.config/nvim/lua/plugins/example.lua
+.config/nvim/lua/plugins/go-nvim.lua
+.config/nvim/lua/plugins/null-ls.lua
+
